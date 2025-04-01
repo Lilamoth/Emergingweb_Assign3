@@ -56,12 +56,15 @@
   align-items: center;
   height: 100vh;
   background-color: #f0f2f5;
+  background-image: url('./back2.jpg'); /* Add background image */
+  background-size:cover ; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
 }
 
 .app {
-  width: 100%;
+  width: 120%;
   max-width: 600px;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
